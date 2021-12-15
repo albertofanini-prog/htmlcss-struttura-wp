@@ -3,7 +3,35 @@
     box-sizing: border-box;
 }
 
-/*Debug*/
+header{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 75%;
+    height: 80px;
+    background-color: violet;
+}
+
+main div:first-child{
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 75%;
+    height: 350px;
+    background-color: #E0C647;
+}
+
+footer{
+    display: inline-block;
+    margin: 25px 150px;
+    width: 75%;
+    height: 75px;
+    background-color: purple;
+}
+
+/*Debug
 
 .debug header{
     display: inline-block;
@@ -24,6 +52,7 @@
     height: 350px;
     border: 1px dashed yellow;
 }
+*/
 
 .debug div:last-child{ 
     display: inline-block;
@@ -35,6 +64,7 @@
     border: 1px dotted lightseagreen;
 }
 
+/*
 .debug footer{
     display: inline-block;
     margin: 25px 150px;
@@ -42,3 +72,4 @@
     height: 75px;
     border: 1px double purple;
 }
+*/
