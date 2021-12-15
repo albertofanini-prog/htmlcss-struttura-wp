@@ -5,7 +5,7 @@
 
 header{
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 150px;
     margin-left: 150px;
     width: 75%;
@@ -15,7 +15,7 @@ header{
 
 main div:first-child{
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-right: 150px;
     margin-left: 150px;
     width: 75%;
@@ -23,11 +23,57 @@ main div:first-child{
     background-color: #E0C647;
 }
 
+
+body main div:last-child{ 
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 75%;
+    height: 450px;
+    background-color: lightseagreen;
+}
+
+#left{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top: 10px solid blue;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid blue;
+    width: 20%;
+    height: 95%;
+    float: left;
+}
+
+#center{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+    width: 60%; 
+    height: 95%;
+    float: left;
+}
+
+#right{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top: 10px solid blue;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid blue;
+    width: 20%;
+    height: 95%;
+    float: left;
+}
+
 footer{
     display: inline-block;
-    margin: 25px 150px;
+    margin: 7px 150px;
     width: 75%;
-    height: 75px;
+    height: 55px;
     background-color: purple;
 }
 
@@ -52,7 +98,6 @@ footer{
     height: 350px;
     border: 1px dashed yellow;
 }
-*/
 
 .debug div:last-child{ 
     display: inline-block;
@@ -64,7 +109,41 @@ footer{
     border: 1px dotted lightseagreen;
 }
 
-/*
+#left{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top: 10px solid blue;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid blue;
+    width: 20%;
+    height: 95%;
+    float: left;
+}
+
+#center{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+    width: 60%; 
+    height: 95%;
+    float: left;
+}
+
+#right{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top: 10px solid blue;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid blue;
+    width: 20%;
+    height: 95%;
+    float: left;
+}
+
 .debug footer{
     display: inline-block;
     margin: 25px 150px;
