@@ -7,19 +7,38 @@
 
 .debug header{
     display: inline-block;
-    margin-left: 150px;
-    margin-right: 150px;
     margin-top: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
     width: 75%;
     height: 80px;
-    border: 1px solid black;
+    border: 1px solid violet;
 }
 
-.debug div{
+.debug div:first-child{
     display: inline-block;
-    margin-left: 150px;
+    margin-top: 25px;
     margin-right: 150px;
+    margin-left: 150px;
     width: 75%;
-    height: 80px;
-    border: 1px solid black;
+    height: 350px;
+    border: 1px dashed yellow;
+}
+
+.debug div:last-child{ 
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 75%;
+    height: 450px;
+    border: 1px dotted lightseagreen;
+}
+
+.debug footer{
+    display: inline-block;
+    margin: 25px 150px;
+    width: 75%;
+    height: 75px;
+    border: 1px double purple;
 }
