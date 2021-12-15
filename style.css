@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Debug*/
+
+.debug header{
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 15px;
+    width: 75%;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.debug div{
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 75%;
+    height: 80px;
+    border: 1px solid black;
+}
